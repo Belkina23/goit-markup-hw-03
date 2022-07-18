@@ -43,6 +43,7 @@ body {
 
 ul {
   padding-left: 0;
+  margin: 0;
 }
 
 /* HEADER */
@@ -53,6 +54,11 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -76,12 +82,14 @@ text-decoration: none;
 }
 
 .menu-nav {
+  display: flex;
   list-style: none;
-  margin: 0;
+  margin-left: 93px;
 }
 
-.menu-nav-cont {
-  margin: 0;
+.menu-nav .item + .item {
+  margin-left: 50px;
+
 }
 
 .logo, .nav-link, .nav-cont {
@@ -89,6 +97,9 @@ text-decoration: none;
 }
 
 .menu-nav .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--h-text-color);
 }
 
@@ -106,7 +117,13 @@ text-decoration: none;
 }
 
 .menu-nav-cont {
+  display: flex;
   list-style: none;
+  margin-left: auto;
+}
+
+.menu-nav-cont .item + .item {
+  margin-left: 50px;
 }
 
 .nav-cont {
@@ -216,6 +233,10 @@ text-decoration: none;
 .work-list {
   list-style: none;
   margin: 0;
+}
+
+.img-item {
+  display: block;
 }
 
   /* Наша команда */
