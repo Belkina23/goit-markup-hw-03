@@ -312,14 +312,17 @@ background-color: var(--white-color);
 
   .logo.foot {
     display: block;
-padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 60px;
   }
 
 .contact-footer {
+  display: block;
   font-style: normal;
   list-style: none;
   margin: 0;
   padding-left: 0;
+  padding-bottom: 60px;
 }
 
 .address, .footer-cont {
