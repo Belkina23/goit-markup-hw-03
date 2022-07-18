@@ -123,14 +123,6 @@ text-decoration: none;
     background: var(--hero-back-color);
 }
 
-.hero-conteiner {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero-title {
     font-weight: 900;
     text-align: center;
@@ -182,14 +174,6 @@ text-decoration: none;
   margin: 0;
   }
 
-  .skills-conteiner {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .skils-com-lict {
     list-style: none;
     margin: 0;
@@ -214,14 +198,6 @@ text-decoration: none;
   
 /* Чемы мы занимаемся */
 
-.work-conteiner {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -244,14 +220,6 @@ text-decoration: none;
     background-color: var(--team-back-color);
  }
 
- .team-conteiner {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
- }
- 
  .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -341,14 +309,6 @@ background-color: var(--white-color);
   .footer-section {
     background-color: var(--hero-back-color);
   }
-
-.footer-conteiner {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .contact-footer {
   font-style: normal;
