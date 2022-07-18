@@ -310,10 +310,16 @@ background-color: var(--white-color);
     background-color: var(--hero-back-color);
   }
 
+  .logo.foot {
+    display: block;
+padding-bottom: 20px;
+  }
+
 .contact-footer {
   font-style: normal;
   list-style: none;
   margin: 0;
+  padding-left: 0;
 }
 
 .address, .footer-cont {
