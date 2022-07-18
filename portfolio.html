@@ -13,20 +13,23 @@
 	</head>
   <body>
     <!--Шапка сайта-->
-    <header class="header">
+		<header class="header">
+			<div class="conteiner header-nav">
 			<nav class="header-nav">
 				<a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
 
 				<ul class="menu-nav">
-					<li><a class="nav-link" href="./index.html">Студия</a></li>
-					<li><a class="nav-link act" href="./portfolio.html">Портфолио</a></li>
-					<li><a class="nav-link" href="">Контакты</a></li>
+					<li class="item"><a class="nav-link act" href="./index.html">Студия</a></li>
+					<li class="item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+					<li class="item"><a class="nav-link" href="">Контакты</a></li>
 				</ul>
 			</nav>
+
 			<ul class="menu-nav-cont">
-				<li><a class="nav-cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a class="nav-cont" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<li class="item"><a class="nav-cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li class="item"><a class="nav-cont" href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
+		</div>
 		</header>
 
     <!--Основной окнтент-->
@@ -105,7 +108,8 @@
     </main>
     <!--Футер-->
 		<footer class="footer-section">
-			<a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="footer-studio">Studio</span></a>
+			<div class="conteiner">
+			<a href="./index.html" class="logo foot"><span class="logo-web">Web</span><span class="footer-studio">Studio</span></a>
 			<address>
 				<ul class="contact-footer">
 					<li>
@@ -115,6 +119,7 @@
 				    <li><a class="footer-cont" href="tel:+380961111111">+38 096 111 11 11</a></li>
 				</ul>
 			</address>
+		</div>
 		</footer>
   </body>
 </html>
