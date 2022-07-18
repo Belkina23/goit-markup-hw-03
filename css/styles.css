@@ -131,6 +131,9 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-cont:hover,
