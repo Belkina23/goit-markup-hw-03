@@ -244,10 +244,6 @@ text-decoration: none;
   margin: 0;
   }
 
-  .skils-content {
-    margin-bottom: 94px;
-  }
-
   .skils-com-lict {
     list-style: none;
     display: flex;
@@ -277,10 +273,6 @@ text-decoration: none;
 
 /* Чемы мы занимаемся */
 
-.work-content {
-  margin-bottom: 94px;
-}
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -304,13 +296,9 @@ text-decoration: none;
 
   /* Наша команда */
 
- .team {
+ .section > .team {
     background-color: var(--team-back-color);
  }
-
- /* .team-content {
-  padding-bottom: 94px;
- } */
 
  .team-title {
   font-weight: 700;
@@ -320,6 +308,7 @@ text-decoration: none;
   letter-spacing: 0.03em;
   color: var(--h-text-color);
   margin-bottom: 50px;
+  padding-top: 94px;
  }
 
  .team-list {
