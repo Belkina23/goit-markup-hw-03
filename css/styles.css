@@ -349,11 +349,6 @@ background-color: var(--white-color);
 
  /* Страница Портфолио */
 
-.portfolio-conent {
-padding-top: 94px;
-padding-bottom: 94px;
-}
-
 /* кнопки-фильтры портфолио */
 .menu-btn-list {
   list-style: none;
