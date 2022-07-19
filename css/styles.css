@@ -321,7 +321,10 @@ text-decoration: none;
  }
 
  .cart-team {
-background-color: var(--white-color);
+  background-color: var(--white-color);
+  border: 1px solid;
+  border-color: #eeeeee;
+  border-radius: 2%;
  }
 
  .team-img {
