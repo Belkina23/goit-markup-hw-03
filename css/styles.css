@@ -168,6 +168,7 @@ text-decoration: none;
 .hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -224,8 +225,17 @@ text-decoration: none;
   margin: 0;
   }
 
+  .skils-content {
+    margin-bottom: 94px;
+  }
+
   .skils-com-lict {
     list-style: none;
+    display: flex;
+  }
+
+  .skils-com-lict .item + .item {
+    margin-left: 30px;
   }
 
 .com-item-title {
@@ -239,12 +249,17 @@ text-decoration: none;
   margin-bottom: 10px;
 }
 
+
 .com-item-text {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
   
 /* Чемы мы занимаемся */
+
+.work-content {
+  margin-bottom: 94px;
+}
 
 .work-title {
   font-weight: 700;
@@ -258,12 +273,21 @@ text-decoration: none;
 
 .work-list {
   list-style: none;
+  display: flex;
+}
+
+.work-list .item + .item {
+  margin-left: 30px;
 }
 
   /* Наша команда */
 
  .team {
     background-color: var(--team-back-color);
+ }
+
+ .team-content {
+  padding-bottom: 94px;
  }
 
  .team-title {
@@ -278,10 +302,19 @@ text-decoration: none;
 
  .team-list {
   list-style: none;
+  display: flex;
+ }
+
+ .team-list .cart-team + .cart-team {
+  margin-left: 30px;
  }
 
  .cart-team {
 background-color: var(--white-color);
+ }
+
+ .team-img {
+  margin-bottom: 30px;
  }
 
 .cart-title {
@@ -291,6 +324,7 @@ background-color: var(--white-color);
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--h-text-color);
+  margin-bottom: 10px;
 }
 
  .cart-text {
@@ -298,6 +332,7 @@ background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
  }
 
 
