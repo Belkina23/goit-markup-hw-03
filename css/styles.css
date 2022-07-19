@@ -296,7 +296,7 @@ text-decoration: none;
 
   /* Наша команда */
 
- .section > .team {
+.team {
     background-color: var(--team-back-color);
  }
 
