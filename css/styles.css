@@ -182,13 +182,10 @@ text-decoration: none;
 
 .hero {
     background: var(--hero-back-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-.hero-content {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-bottom: 94px;
-}
 
 .hero-title {
   display: block;
@@ -253,6 +250,10 @@ text-decoration: none;
     margin-left: 30px;
   }
 
+.com-list-item {
+  width: 270px;
+}
+
 .com-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -272,6 +273,10 @@ text-decoration: none;
   
 
 /* Чемы мы занимаемся */
+
+.work {
+  padding-top: 0;
+}
 
 .work-title {
   font-weight: 700;
@@ -364,21 +369,22 @@ text-decoration: none;
 }
 
 .filtre {
-  text-align: center;
-  letter-spacing: 0.03em;
   background: var(--team-back-color);
+  padding: 6px 22px;
   border-radius: 4px;
   border: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  box-shadow: var(--box-shadow-color);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filtre:hover,
 .filtre:focus {
   background: var(--accent-color);
   color: var(--white-color);
+  box-shadow: var(--box-shadow-color);
 }
 
 
@@ -444,13 +450,17 @@ text-decoration: none;
 
   .logo.foot {
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
 .contact-footer {
   display: block;
   font-style: normal;
   list-style: none;
+}
+
+.contact-footer .item-foot + .item-foot {
+  margin-top: 9px;
 }
 
 .address, .footer-cont {
